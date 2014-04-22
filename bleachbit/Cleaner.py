@@ -807,7 +807,7 @@ def create_simple_cleaner(paths):
     cleaner.add_action('files', provider)
     return cleaner
 
-
+#擦除空闲空间
 def create_wipe_cleaner(path):
     """Wipe free disk space of arbitrary paths (used in GUI)"""
     cleaner = Cleaner()

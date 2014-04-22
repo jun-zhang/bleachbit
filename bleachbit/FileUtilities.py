@@ -87,7 +87,7 @@ def __random_string(length):
     return ''.join(random.choice(string.ascii_letters + '0123456789_.-')
                    for i in xrange(length))
 
-
+#字节转换为具体单位
 def bytes_to_human(bytes_i):
     """Display a file size in human terms (megabytes, etc.) using SI standard"""
 

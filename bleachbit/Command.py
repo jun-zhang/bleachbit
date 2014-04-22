@@ -20,6 +20,7 @@
 
 """
 Command design pattern implementation for cleaning
+设计命令模式实现清洁
 """
 
 

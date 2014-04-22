@@ -1,0 +1,802 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_NAME	Common.py	/^APP_NAME = "BleachBit"$/;"	v
+APP_NAME	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+APP_URL	Common.py	/^APP_URL = "http:\/\/bleachbit.sourceforge.net"$/;"	v
+APP_URL	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+APP_VERSION	CLI.py	/^from Common import _, APP_VERSION$/;"	i
+APP_VERSION	Common.py	/^APP_VERSION = "1.1"$/;"	v
+APP_VERSION	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+Action	Cleaner.py	/^    import Action$/;"	i
+ActionProvider	Action.py	/^class ActionProvider:$/;"	c
+ActionProvider	CleanerML.py	/^from Action import ActionProvider$/;"	i
+AptAutoclean	Action.py	/^class AptAutoclean(ActionProvider):$/;"	c
+AptAutoremove	Action.py	/^class AptAutoremove(ActionProvider):$/;"	c
+CHANGED	RecognizeCleanerML.py	/^CHANGED = 2$/;"	v
+ChromeAutofill	Action.py	/^class ChromeAutofill(FileActionProvider):$/;"	c
+ChromeDatabases	Action.py	/^class ChromeDatabases(FileActionProvider):$/;"	c
+ChromeFavicons	Action.py	/^class ChromeFavicons(FileActionProvider):$/;"	c
+ChromeHistory	Action.py	/^class ChromeHistory(FileActionProvider):$/;"	c
+ChromeKeywords	Action.py	/^class ChromeKeywords(FileActionProvider):$/;"	c
+Cleaner	Cleaner.py	/^class Cleaner:$/;"	c
+Cleaner	CleanerML.py	/^import Cleaner$/;"	i
+Cleaner	GUI.py	/^import Cleaner$/;"	i
+Cleaner	Winapp.py	/^import Cleaner$/;"	i
+CleanerML	Cleaner.py	/^    import CleanerML$/;"	i
+CleanerML	CleanerML.py	/^class CleanerML:$/;"	c
+CliCallback	CLI.py	/^class CliCallback:$/;"	c
+Command	Action.py	/^import Command$/;"	i
+Command	Cleaner.py	/^import Command$/;"	i
+Command	Windows.py	/^import Command$/;"	i
+Command	Worker.py	/^            import Command$/;"	i
+Common	CleanerML.py	/^import Common$/;"	i
+Common	Diagnostic.py	/^import Common$/;"	i
+Common	Options.py	/^import Common$/;"	i
+Common	Update.py	/^import Common$/;"	i
+Common	Winapp.py	/^import Common$/;"	i
+Common	Windows.py	/^import Common$/;"	i
+ConfigParser	FileUtilities.py	/^import ConfigParser$/;"	i
+ConfigParser	Options.py	/^import ConfigParser$/;"	i
+ConfigParser	RecognizeCleanerML.py	/^import ConfigParser$/;"	i
+ConfigParser	Unix.py	/^import ConfigParser$/;"	i
+ConfigParser	Winapp.py	/^import ConfigParser$/;"	i
+CustomFileAction	Cleaner.py	/^    class CustomFileAction(Action.ActionProvider):$/;"	c	function:create_simple_cleaner
+CustomWipeAction	Cleaner.py	/^    class CustomWipeAction(Action.ActionProvider):$/;"	c	function:create_wipe_cleaner
+DatabaseError	Command.py	/^from sqlite3 import DatabaseError$/;"	i
+DeepScan	DeepScan.py	/^class DeepScan:$/;"	c
+DeepScan	Worker.py	/^import DeepScan$/;"	i
+Delete	Action.py	/^class Delete(FileActionProvider):$/;"	c
+Delete	Command.py	/^class Delete:$/;"	c
+Delete	Winapp.py	/^from Action import Delete, Winreg$/;"	i
+Diagnostic	CLI.py	/^        import Diagnostic$/;"	i
+Diagnostic	GUI.py	/^        import Diagnostic$/;"	i
+EACCES	Worker.py	/^            from errno import ENOENT, EACCES$/;"	i
+ENOENT	Command.py	/^                    from errno import ENOENT$/;"	i
+ENOENT	Worker.py	/^            from errno import ENOENT, EACCES$/;"	i
+ENOSPC	Options.py	/^            from errno import ENOSPC$/;"	i
+FileActionProvider	Action.py	/^class FileActionProvider(ActionProvider):$/;"	c
+FileUtilities	Action.py	/^import FileUtilities$/;"	i
+FileUtilities	Cleaner.py	/^import FileUtilities$/;"	i
+FileUtilities	Command.py	/^import FileUtilities$/;"	i
+FileUtilities	GUI.py	/^import FileUtilities$/;"	i
+FileUtilities	Memory.py	/^import FileUtilities$/;"	i
+FileUtilities	Special.py	/^import FileUtilities$/;"	i
+FileUtilities	Unix.py	/^import FileUtilities$/;"	i
+FileUtilities	Windows.py	/^import FileUtilities$/;"	i
+FileUtilities	Worker.py	/^import FileUtilities$/;"	i
+Firefox	Cleaner.py	/^class Firefox(Cleaner):$/;"	c
+Function	Command.py	/^class Function:$/;"	c
+GETTEXT_CONTEXT_GLUE	Common.py	/^GETTEXT_CONTEXT_GLUE = "\\004"$/;"	v
+GUI	CLI.py	/^        import GUI$/;"	i
+GUI	GUI.py	/^class GUI:$/;"	c
+General	Action.py	/^import General$/;"	i
+General	Memory.py	/^import General$/;"	i
+General	Options.py	/^import General$/;"	i
+General	Unix.py	/^import General$/;"	i
+General	Windows.py	/^import General$/;"	i
+GetLongPathName	Options.py	/^    from win32file import GetLongPathName$/;"	i
+GlobalMemoryStatusEx	Memory.py	/^    def GlobalMemoryStatusEx():$/;"	f	function:physical_free_windows
+GuiBasic	Common.py	/^        import GuiBasic$/;"	i
+GuiBasic	GUI.py	/^import GuiBasic$/;"	i
+GuiBasic	GuiPreferences.py	/^import GuiBasic$/;"	i
+GuiBasic	RecognizeCleanerML.py	/^        import GuiBasic$/;"	i
+GuiBasic	Windows.py	/^        import GuiBasic$/;"	i
+HAVE_GNOME_VFS	Unix.py	/^        HAVE_GNOME_VFS = False$/;"	v
+HAVE_GNOME_VFS	Unix.py	/^HAVE_GNOME_VFS = True$/;"	v
+HAVE_GTK	Cleaner.py	/^    HAVE_GTK = False$/;"	v
+HAVE_GTK	Cleaner.py	/^    HAVE_GTK = True$/;"	v
+Ini	Action.py	/^class Ini(FileActionProvider):$/;"	c
+Ini	Command.py	/^class Ini:$/;"	c
+Json	Action.py	/^class Json(FileActionProvider):$/;"	c
+Json	Command.py	/^class Json:$/;"	c
+KNOWN	RecognizeCleanerML.py	/^KNOWN = 1$/;"	v
+LOCATIONS_CUSTOM	GuiPreferences.py	/^LOCATIONS_CUSTOM = 2$/;"	v
+LOCATIONS_WHITELIST	GuiPreferences.py	/^LOCATIONS_WHITELIST = 1$/;"	v
+Locales	Unix.py	/^class Locales:$/;"	c
+MAX_DETECT	Winapp.py	/^MAX_DETECT = 50$/;"	v
+MEMORYSTATUSEX	Memory.py	/^    class MEMORYSTATUSEX(Structure):$/;"	c	function:physical_free_windows
+Memory	Cleaner.py	/^import Memory$/;"	i
+MozillaUrlHistory	Action.py	/^class MozillaUrlHistory(FileActionProvider):$/;"	c
+NEW	RecognizeCleanerML.py	/^NEW = 3$/;"	v
+OfficeRegistryModifications	Action.py	/^class OfficeRegistryModifications(FileActionProvider):$/;"	c
+OpenFiles	FileUtilities.py	/^class OpenFiles:$/;"	c
+OpenOfficeOrg	Cleaner.py	/^class OpenOfficeOrg(Cleaner):$/;"	c
+Options	CLI.py	/^import Options$/;"	i
+Options	Options.py	/^class Options:$/;"	c
+Options	Unix.py	/^        import Options$/;"	i
+PluginMount	Action.py	/^class PluginMount(type):$/;"	c
+PreferencesDialog	GUI.py	/^from GuiPreferences import PreferencesDialog$/;"	i
+PreferencesDialog	GuiPreferences.py	/^class PreferencesDialog:$/;"	c
+RecognizeCleanerML	GUI.py	/^        import RecognizeCleanerML$/;"	i
+RecognizeCleanerML	RecognizeCleanerML.py	/^class RecognizeCleanerML:$/;"	c
+Shred	Action.py	/^class Shred(FileActionProvider):$/;"	c
+Shred	Command.py	/^class Shred(Delete):$/;"	c
+Special	Action.py	/^import Special$/;"	i
+Special	Cleaner.py	/^import Special$/;"	i
+SqliteVacuum	Action.py	/^class SqliteVacuum(FileActionProvider):$/;"	c
+Structure	Memory.py	/^    from ctypes.wintypes import Structure, sizeof, windll, byref$/;"	i
+System	Cleaner.py	/^class System(Cleaner):$/;"	c
+TestActionProvider	Action.py	/^class TestActionProvider(ActionProvider):$/;"	c
+TreeDisplayModel	GUI.py	/^class TreeDisplayModel:$/;"	c
+TreeInfoModel	GUI.py	/^class TreeInfoModel:$/;"	c
+Truncate	Action.py	/^class Truncate(FileActionProvider):$/;"	c
+Truncate	Command.py	/^class Truncate(Delete):$/;"	c
+Unix	Action.py	/^    import Unix$/;"	i
+Unix	Cleaner.py	/^    import Unix$/;"	i
+Unix	GuiPreferences.py	/^    import Unix$/;"	i
+Update	CLI.py	/^        import Update$/;"	i
+Update	GUI.py	/^        import Update$/;"	i
+Winapp	Cleaner.py	/^        import Winapp$/;"	i
+Winapp	Winapp.py	/^class Winapp:$/;"	c
+Windows	Cleaner.py	/^    import Windows$/;"	i
+Windows	Command.py	/^    import Windows$/;"	i
+Windows	GUI.py	/^    import Windows$/;"	i
+Windows	GuiBasic.py	/^    import Windows$/;"	i
+Windows	GuiPreferences.py	/^    import Windows$/;"	i
+Windows	Winapp.py	/^import Windows$/;"	i
+WindowsError	Command.py	/^    from General import WindowsError$/;"	i
+WindowsError	FileUtilities.py	/^    from General import WindowsError$/;"	i
+WindowsError	General.py	/^class WindowsError(Exception):$/;"	c
+Winreg	Action.py	/^class Winreg(ActionProvider):$/;"	c
+Winreg	Command.py	/^class Winreg:$/;"	c
+Winreg	Winapp.py	/^from Action import Delete, Winreg$/;"	i
+Worker	CLI.py	/^import Worker$/;"	i
+Worker	GUI.py	/^        import Worker$/;"	i
+Worker	Worker.py	/^class Worker:$/;"	c
+YumCleanAll	Action.py	/^class YumCleanAll(ActionProvider):$/;"	c
+_	Action.py	/^from Common import _$/;"	i
+_	CLI.py	/^from Common import _, APP_VERSION$/;"	i
+_	Cleaner.py	/^from Common import _$/;"	i
+_	CleanerML.py	/^from Common import _$/;"	i
+_	Command.py	/^from Common import _$/;"	i
+_	Common.py	/^    _ = t.ugettext$/;"	v
+_	Common.py	/^    def _(msg):$/;"	f
+_	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+_	GuiBasic.py	/^from Common import _$/;"	i
+_	GuiPreferences.py	/^from Common import _, _p, online_update_notification_enabled$/;"	i
+_	RecognizeCleanerML.py	/^from Common import _, _p$/;"	i
+_	Unix.py	/^from Common import _, autostart_path, launcher_path$/;"	i
+_	Update.py	/^from Common import _$/;"	i
+_	Winapp.py	/^from Common import _$/;"	i
+_	Worker.py	/^from Common import _, ungettext$/;"	i
+__basedirs	Unix.py	/^    __basedirs = [os.path.expanduser('~\/.local\/share\/locale\/'),$/;"	v	class:Locales
+__drives_page	GuiPreferences.py	/^    def __drives_page(self):$/;"	m	class:PreferencesDialog	file:
+__flush	Options.py	/^    def __flush(self):$/;"	m	class:Options	file:
+__general_page	GuiPreferences.py	/^    def __general_page(self):$/;"	m	class:PreferencesDialog	file:
+__get_chrome_history	Special.py	/^def __get_chrome_history(path, fn='History'):$/;"	f	file:
+__icons	Common.py	/^__icons = ('\/usr\/share\/pixmaps\/bleachbit.png',  # Linux$/;"	v
+__ignore	Unix.py	/^    __ignore = ['all_languages', 'C', 'l10n', 'locale.alias', 'default']$/;"	v	class:Locales
+__init__	Action.py	/^    def __init__(cls, name, bases, attrs):$/;"	m	class:PluginMount
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:AptAutoclean
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:AptAutoremove
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:FileActionProvider
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:Ini
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:Json
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:TestActionProvider
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:Winreg
+__init__	Action.py	/^    def __init__(self, action_element):$/;"	m	class:YumCleanAll
+__init__	Action.py	/^    def __init__(self, action_node):$/;"	m	class:ActionProvider
+__init__	CLI.py	/^    def __init__(self):$/;"	m	class:CliCallback
+__init__	Cleaner.py	/^    def __init__(self):$/;"	m	class:Cleaner
+__init__	Cleaner.py	/^    def __init__(self):$/;"	m	class:Firefox
+__init__	Cleaner.py	/^    def __init__(self):$/;"	m	class:OpenOfficeOrg
+__init__	Cleaner.py	/^    def __init__(self):$/;"	m	class:System
+__init__	CleanerML.py	/^    def __init__(self, pathname, xlate_cb=None):$/;"	m	class:CleanerML
+__init__	Command.py	/^    def __init__(self, keyname, valuename):$/;"	m	class:Winreg
+__init__	Command.py	/^    def __init__(self, path):$/;"	m	class:Delete
+__init__	Command.py	/^    def __init__(self, path):$/;"	m	class:Shred
+__init__	Command.py	/^    def __init__(self, path, address):$/;"	m	class:Json
+__init__	Command.py	/^    def __init__(self, path, func, label):$/;"	m	class:Function
+__init__	Command.py	/^    def __init__(self, path, section, parameter):$/;"	m	class:Ini
+__init__	DeepScan.py	/^    def __init__(self):$/;"	m	class:DeepScan
+__init__	FileUtilities.py	/^    def __init__(self):$/;"	m	class:OpenFiles
+__init__	GUI.py	/^    def __init__(self):$/;"	m	class:TreeInfoModel
+__init__	GUI.py	/^    def __init__(self, uac=True, shred_paths=None):$/;"	m	class:GUI
+__init__	GuiPreferences.py	/^    def __init__(self, parent):$/;"	m	class:PreferencesDialog
+__init__	Options.py	/^    def __init__(self):$/;"	m	class:Options
+__init__	RecognizeCleanerML.py	/^    def __init__(self, parent_window=None):$/;"	m	class:RecognizeCleanerML
+__init__	Unix.py	/^    def __init__(self):$/;"	m	class:Locales
+__init__	Winapp.py	/^    def __init__(self, pathname):$/;"	m	class:Winapp
+__init__	Worker.py	/^    def __init__(self, ui, really_delete, operations):$/;"	m	class:Worker
+__is_broken_xdg_desktop_application	Unix.py	/^def __is_broken_xdg_desktop_application(config, desktop_pathname):$/;"	f	file:
+__languages_page	GuiPreferences.py	/^    def __languages_page(self):$/;"	m	class:PreferencesDialog	file:
+__localization_path	Unix.py	/^    def __localization_path(self, basedir, language_filter, dir_filter):$/;"	m	class:Locales	file:
+__locations_page	GuiPreferences.py	/^    def __locations_page(self, page_type):$/;"	m	class:PreferencesDialog	file:
+__make_file_provider	Winapp.py	/^    def __make_file_provider(self, dirname, filename, recurse, removeself):$/;"	m	class:Winapp	file:
+__metaclass__	Action.py	/^    __metaclass__ = PluginMount$/;"	v	class:ActionProvider
+__native_locale_names	Unix.py	/^        {'ar': 'العربية',$/;"	v	class:Locales
+__purge	Options.py	/^    def __purge(self):$/;"	m	class:Options	file:
+__random_string	FileUtilities.py	/^def __random_string(length):$/;"	f	file:
+__recognized	RecognizeCleanerML.py	/^    def __recognized(self, pathname):$/;"	m	class:RecognizeCleanerML	file:
+__scan	RecognizeCleanerML.py	/^    def __scan(self):$/;"	m	class:RecognizeCleanerML	file:
+__scan	Unix.py	/^    def __scan(self):$/;"	m	class:Locales	file:
+__set_default	Options.py	/^    def __set_default(self, key, value):$/;"	m	class:Options	file:
+__shred_sqlite_char_columns	Special.py	/^def __shred_sqlite_char_columns(table, cols=None, where=""):$/;"	f	file:
+__str__	General.py	/^    def __str__(self):$/;"	m	class:WindowsError	file:
+__toggle_callback	GuiPreferences.py	/^    def __toggle_callback(self, cell, path):$/;"	m	class:PreferencesDialog	file:
+_fields_	Memory.py	/^        _fields_ = [$/;"	v	class:physical_free_windows.MEMORYSTATUSEX
+_p	Common.py	/^_p = lambda msgctxt, msgid: pgettext(msgctxt, msgid)$/;"	v
+_p	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+_p	GuiPreferences.py	/^from Common import _, _p, online_update_notification_enabled$/;"	i
+_p	RecognizeCleanerML.py	/^from Common import _, _p$/;"	i
+_winreg	Windows.py	/^    import _winreg$/;"	i
+about	GUI.py	/^    def about(self, __event):$/;"	m	class:GUI
+accessdenied	Action.py	/^        def accessdenied():$/;"	f	function:TestActionProvider.get_commands
+action_key	Action.py	/^    action_key = '_file'$/;"	v	class:FileActionProvider
+action_key	Action.py	/^    action_key = 'apt.autoclean'$/;"	v	class:AptAutoclean
+action_key	Action.py	/^    action_key = 'apt.autoremove'$/;"	v	class:AptAutoremove
+action_key	Action.py	/^    action_key = 'chrome.autofill'$/;"	v	class:ChromeAutofill
+action_key	Action.py	/^    action_key = 'chrome.databases_db'$/;"	v	class:ChromeDatabases
+action_key	Action.py	/^    action_key = 'chrome.favicons'$/;"	v	class:ChromeFavicons
+action_key	Action.py	/^    action_key = 'chrome.history'$/;"	v	class:ChromeHistory
+action_key	Action.py	/^    action_key = 'chrome.keywords'$/;"	v	class:ChromeKeywords
+action_key	Action.py	/^    action_key = 'delete'$/;"	v	class:Delete
+action_key	Action.py	/^    action_key = 'ini'$/;"	v	class:Ini
+action_key	Action.py	/^    action_key = 'json'$/;"	v	class:Json
+action_key	Action.py	/^    action_key = 'mozilla_url_history'$/;"	v	class:MozillaUrlHistory
+action_key	Action.py	/^    action_key = 'office_registrymodifications'$/;"	v	class:OfficeRegistryModifications
+action_key	Action.py	/^    action_key = 'shred'$/;"	v	class:Shred
+action_key	Action.py	/^    action_key = 'sqlite.vacuum'$/;"	v	class:SqliteVacuum
+action_key	Action.py	/^    action_key = 'test'$/;"	v	class:TestActionProvider
+action_key	Action.py	/^    action_key = 'truncate'$/;"	v	class:Truncate
+action_key	Action.py	/^    action_key = 'winreg'$/;"	v	class:Winreg
+action_key	Action.py	/^    action_key = 'yum.clean_all'$/;"	v	class:YumCleanAll
+action_key	Cleaner.py	/^        action_key = '__customfileaction'$/;"	v	class:create_simple_cleaner.CustomFileAction
+action_key	Cleaner.py	/^        action_key = '__customwipeaction'$/;"	v	class:create_wipe_cleaner.CustomWipeAction
+add_action	Cleaner.py	/^    def add_action(self, option_id, action):$/;"	m	class:Cleaner
+add_custom_file_cb	GuiPreferences.py	/^        def add_custom_file_cb(button):$/;"	f	function:PreferencesDialog.__locations_page
+add_custom_folder_cb	GuiPreferences.py	/^        def add_custom_folder_cb(button):$/;"	f	function:PreferencesDialog.__locations_page
+add_drive_cb	GuiPreferences.py	/^        def add_drive_cb(button):$/;"	f	function:PreferencesDialog.__drives_page
+add_option	Cleaner.py	/^    def add_option(self, option_id, name, description):$/;"	m	class:Cleaner
+add_running	Cleaner.py	/^    def add_running(self, detection_type, pathname):$/;"	m	class:Cleaner
+add_search	DeepScan.py	/^    def add_search(self, dirname, regex):$/;"	m	class:DeepScan
+add_section	Winapp.py	/^    def add_section(self, cleaner_id, name):$/;"	m	class:Winapp
+add_whitelist_file_cb	GuiPreferences.py	/^        def add_whitelist_file_cb(button):$/;"	f	function:PreferencesDialog.__locations_page
+add_whitelist_folder_cb	GuiPreferences.py	/^        def add_whitelist_folder_cb(button):$/;"	f	function:PreferencesDialog.__locations_page
+append_text	CLI.py	/^    def append_text(self, msg, tag=None):$/;"	m	class:CliCallback
+append_text	GUI.py	/^    def append_text(self, text, tag=None, __iter=None):$/;"	m	class:GUI
+appicon_path	Common.py	/^        appicon_path = __icon$/;"	v
+appicon_path	Common.py	/^appicon_path = None$/;"	v
+appicon_path	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+apt_autoclean	Unix.py	/^def apt_autoclean():$/;"	f
+apt_autoremove	Unix.py	/^def apt_autoremove():$/;"	f
+args_to_operations	CLI.py	/^def args_to_operations(args, preset):$/;"	f
+atexit	FileUtilities.py	/^import atexit$/;"	i
+auto_hide	Cleaner.py	/^    def auto_hide(self):$/;"	m	class:Cleaner
+autostart_path	Common.py	/^    autostart_path = os.path.expanduser($/;"	v
+autostart_path	Unix.py	/^from Common import _, autostart_path, launcher_path$/;"	i
+backends	CLI.py	/^from Cleaner import backends, create_simple_cleaner, register_cleaners$/;"	i
+backends	Cleaner.py	/^backends = {}$/;"	v
+backends	GUI.py	/^from Cleaner import backends, register_cleaners$/;"	i
+backends	Worker.py	/^from Cleaner import backends$/;"	i
+base_url	Common.py	/^base_url = "http:\/\/bleachbit.sourceforge.net"$/;"	v
+bleachbit_exe_path	Common.py	/^    bleachbit_exe_path = os.path.dirname($/;"	v
+bleachbit_exe_path	Common.py	/^bleachbit_exe_path = None$/;"	v
+boolean_keys	Options.py	/^boolean_keys = ['auto_start', 'check_beta',$/;"	v
+boolstr_to_bool	CleanerML.py	/^from General import boolstr_to_bool, getText$/;"	i
+boolstr_to_bool	General.py	/^def boolstr_to_bool(value):$/;"	f
+browse_file	GuiBasic.py	/^def browse_file(parent, title):$/;"	f
+browse_file	Windows.py	/^def browse_file(_, title):$/;"	f
+browse_files	GuiBasic.py	/^def browse_files(parent, title):$/;"	f
+browse_files	Windows.py	/^def browse_files(_, title):$/;"	f
+browse_folder	GuiBasic.py	/^def browse_folder(parent, title, multiple, stock_button):$/;"	f
+browse_folder	Windows.py	/^def browse_folder(hwnd, title):$/;"	f
+byref	Memory.py	/^    from ctypes.wintypes import Structure, sizeof, windll, byref$/;"	i
+byref	Windows.py	/^    from ctypes import windll, c_ulong, c_buffer, byref, sizeof$/;"	i
+bytes_to_human	FileUtilities.py	/^def bytes_to_human(bytes_i):$/;"	f
+c_buffer	Windows.py	/^    from ctypes import windll, c_ulong, c_buffer, byref, sizeof$/;"	i
+c_long	Memory.py	/^    from ctypes import c_long, c_ulonglong$/;"	i
+c_ulong	Windows.py	/^    from ctypes import windll, c_ulong, c_buffer, byref, sizeof$/;"	i
+c_ulonglong	Memory.py	/^    from ctypes import c_long, c_ulonglong$/;"	i
+cb_preferences_dialog	GUI.py	/^    def cb_preferences_dialog(self, action):$/;"	m	class:GUI
+cb_refresh_operations	GUI.py	/^    def cb_refresh_operations(self):$/;"	m	class:GUI
+cb_run_option	GUI.py	/^    def cb_run_option(self, widget, really_delete, cleaner_id, option_id):$/;"	m	class:GUI
+cb_shred_file	GUI.py	/^    def cb_shred_file(self, action):$/;"	m	class:GUI
+cb_shred_quit	GUI.py	/^    def cb_shred_quit(self, action):$/;"	m	class:GUI
+cb_wipe_free_space	GUI.py	/^    def cb_wipe_free_space(self, action):$/;"	m	class:GUI
+check_online_updates	GUI.py	/^    def check_online_updates(self):$/;"	m	class:GUI
+check_updates	Update.py	/^def check_updates(check_beta, check_winapp2, append_text, cb_success):$/;"	f
+children_in_directory	Cleaner.py	/^from FileUtilities import children_in_directory$/;"	i
+children_in_directory	FileUtilities.py	/^def children_in_directory(top, list_directories=False):$/;"	f
+chownself	General.py	/^def chownself(path):$/;"	f
+clean_ini	FileUtilities.py	/^def clean_ini(path, section, parameter):$/;"	f
+clean_json	FileUtilities.py	/^def clean_json(path, target):$/;"	f
+clean_operation	Worker.py	/^    def clean_operation(self, operation):$/;"	m	class:Worker
+cleaner_change_dialog	RecognizeCleanerML.py	/^def cleaner_change_dialog(changes, parent):$/;"	f
+cleaners_list	CLI.py	/^def cleaners_list():$/;"	f
+clear_clipboard	Cleaner.py	/^            def clear_clipboard():$/;"	f	function:System.get_commands
+client	Windows.py	/^    import win32com.client$/;"	i
+codecs	FileUtilities.py	/^import codecs$/;"	i
+col1_toggled_cb	GUI.py	/^    def col1_toggled_cb(self, cell, path, model, parent_window):$/;"	m	class:TreeDisplayModel
+context_menu_event	GUI.py	/^    def context_menu_event(self, treeview, event):$/;"	m	class:GUI
+count_swap_linux	Memory.py	/^def count_swap_linux():$/;"	f
+create_menubar	GUI.py	/^    def create_menubar(self):$/;"	m	class:GUI
+create_operations_box	GUI.py	/^    def create_operations_box(self):$/;"	m	class:GUI
+create_pot	CleanerML.py	/^def create_pot():$/;"	f
+create_simple_cleaner	CLI.py	/^from Cleaner import backends, create_simple_cleaner, register_cleaners$/;"	i
+create_simple_cleaner	Cleaner.py	/^def create_simple_cleaner(paths):$/;"	f
+create_toolbar	GUI.py	/^    def create_toolbar(self):$/;"	m	class:GUI
+create_window	GUI.py	/^    def create_window(self):$/;"	m	class:GUI
+create_wipe_cleaner	Cleaner.py	/^def create_wipe_cleaner(path):$/;"	f
+ctypes	FileUtilities.py	/^        import ctypes$/;"	i
+delete	FileUtilities.py	/^def delete(path, shred=False, ignore_missing=False, allow_shred=True):$/;"	f
+delete	Update.py	/^        from FileUtilities import delete$/;"	i
+delete_chrome_autofill	Special.py	/^def delete_chrome_autofill(path):$/;"	f
+delete_chrome_databases_db	Special.py	/^def delete_chrome_databases_db(path):$/;"	f
+delete_chrome_favicons	Special.py	/^def delete_chrome_favicons(path):$/;"	f
+delete_chrome_history	Special.py	/^def delete_chrome_history(path):$/;"	f
+delete_chrome_keywords	Special.py	/^def delete_chrome_keywords(path):$/;"	f
+delete_confirmation_dialog	GuiBasic.py	/^def delete_confirmation_dialog(parent, mention_preview):$/;"	f
+delete_locked_file	Windows.py	/^def delete_locked_file(pathname):$/;"	f
+delete_mozilla_url_history	Special.py	/^def delete_mozilla_url_history(path):$/;"	f
+delete_office_registrymodifications	Special.py	/^def delete_office_registrymodifications(path):$/;"	f
+delete_ooo_history	Special.py	/^def delete_ooo_history(path):$/;"	f
+delete_registry_key	Windows.py	/^def delete_registry_key(parent_key, really_delete):$/;"	f
+delete_registry_value	Windows.py	/^def delete_registry_value(key, value_name, really_delete):$/;"	f
+delete_updates	Windows.py	/^def delete_updates():$/;"	f
+detect_file	Winapp.py	/^        def detect_file(rawpath):$/;"	f	function:Winapp.handle_section
+detect_registry_key	Windows.py	/^def detect_registry_key(parent_key):$/;"	f
+detectos	Winapp.py	/^def detectos(required_ver, mock=False):$/;"	f
+diagnostic_dialog	GUI.py	/^    def diagnostic_dialog(self, parent):$/;"	m	class:GUI
+diagnostic_info	Diagnostic.py	/^def diagnostic_info():$/;"	f
+did_something	CLI.py	/^        did_something = True$/;"	v
+disable_swap_linux	Memory.py	/^def disable_swap_linux():$/;"	f
+dom	CleanerML.py	/^import xml.dom.minidom$/;"	i
+dom	Special.py	/^    import xml.dom.minidom$/;"	i
+dom	Update.py	/^import xml.dom.minidom$/;"	i
+ego_owner	FileUtilities.py	/^def ego_owner(filename):$/;"	f
+elevate_privileges	Windows.py	/^def elevate_privileges():$/;"	f
+empty_recycle_bin	Windows.py	/^def empty_recycle_bin(drive, really_delete):$/;"	f
+emptyrecyclebin	Cleaner.py	/^                def emptyrecyclebin():$/;"	f	function:System.get_commands.clear_clipboard
+enable_swap_linux	Memory.py	/^def enable_swap_linux():$/;"	f
+environ	Common.py	/^def environ(varname, csidl):$/;"	f
+errno	FileUtilities.py	/^import errno$/;"	i
+estimate_completion	FileUtilities.py	/^    def estimate_completion():$/;"	f	function:wipe_path
+exe_exists	FileUtilities.py	/^def exe_exists(pathname):$/;"	f
+execute	Command.py	/^    def execute(self, really_delete):$/;"	m	class:Delete
+execute	Command.py	/^    def execute(self, really_delete):$/;"	m	class:Function
+execute	Command.py	/^    def execute(self, really_delete):$/;"	m	class:Ini
+execute	Command.py	/^    def execute(self, really_delete):$/;"	m	class:Json
+execute	Command.py	/^    def execute(self, really_delete):$/;"	m	class:Truncate
+execute	Command.py	/^    def execute(self, really_delete):$/;"	m	class:Winreg
+execute	Worker.py	/^    def execute(self, cmd):$/;"	m	class:Worker
+execute_sqlite3	FileUtilities.py	/^def execute_sqlite3(path, cmds):$/;"	f
+exists_in_path	FileUtilities.py	/^def exists_in_path(filename):$/;"	f
+expand_glob_join	FileUtilities.py	/^def expand_glob_join(pathname1, pathname2):$/;"	f
+file_qualifies	FileUtilities.py	/^    def file_qualifies(self, filename):$/;"	m	class:OpenFiles
+fill_memory_linux	Memory.py	/^def fill_memory_linux():$/;"	f
+free_space	FileUtilities.py	/^def free_space(pathname):$/;"	f
+funcgenerator	Action.py	/^        def funcgenerator():$/;"	f	function:TestActionProvider.get_commands
+get	Options.py	/^    def get(self, option, section='bleachbit'):$/;"	m	class:Options
+getText	CleanerML.py	/^from General import boolstr_to_bool, getText$/;"	i
+getText	General.py	/^def getText(nodelist):$/;"	f
+get_autostart_path	Windows.py	/^def get_autostart_path():$/;"	f
+get_chrome_bookmark_ids	Special.py	/^def get_chrome_bookmark_ids(history_path):$/;"	f
+get_chrome_bookmark_urls	Special.py	/^def get_chrome_bookmark_urls(path):$/;"	f
+get_chrome_bookmark_urls_helper	Special.py	/^    def get_chrome_bookmark_urls_helper(node):$/;"	f	function:get_chrome_bookmark_urls
+get_cleaner	CleanerML.py	/^    def get_cleaner(self):$/;"	m	class:CleanerML
+get_cleaners	Winapp.py	/^    def get_cleaners(self):$/;"	m	class:Winapp
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:ActionProvider
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:AptAutoclean
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:AptAutoremove
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:ChromeAutofill
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:ChromeDatabases
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:ChromeFavicons
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:ChromeHistory
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:ChromeKeywords
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:Delete
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:FileActionProvider
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:Ini
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:Json
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:MozillaUrlHistory
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:OfficeRegistryModifications
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:Shred
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:SqliteVacuum
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:TestActionProvider
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:Truncate
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:Winreg
+get_commands	Action.py	/^    def get_commands(self):$/;"	m	class:YumCleanAll
+get_commands	Cleaner.py	/^        def get_commands(self):$/;"	m	class:create_simple_cleaner.CustomFileAction
+get_commands	Cleaner.py	/^        def get_commands(self):$/;"	m	class:create_wipe_cleaner.CustomWipeAction
+get_commands	Cleaner.py	/^    def get_commands(self, option_id):$/;"	m	class:Cleaner
+get_commands	Cleaner.py	/^    def get_commands(self, option_id):$/;"	m	class:Firefox
+get_commands	Cleaner.py	/^    def get_commands(self, option_id):$/;"	m	class:OpenOfficeOrg
+get_commands	Cleaner.py	/^    def get_commands(self, option_id):$/;"	m	class:System
+get_custom_paths	Options.py	/^    def get_custom_paths(self):$/;"	m	class:Options
+get_deep_scan	Action.py	/^    def get_deep_scan(self):$/;"	m	class:ActionProvider
+get_deep_scan	Action.py	/^    def get_deep_scan(self):$/;"	m	class:FileActionProvider
+get_deep_scan	Cleaner.py	/^    def get_deep_scan(self, option_id):$/;"	m	class:Cleaner
+get_description	Cleaner.py	/^    def get_description(self):$/;"	m	class:Cleaner
+get_description	Cleaner.py	/^    def get_description(self):$/;"	m	class:Firefox
+get_description	Cleaner.py	/^    def get_description(self):$/;"	m	class:OpenOfficeOrg
+get_description	Cleaner.py	/^    def get_description(self):$/;"	m	class:System
+get_file	Action.py	/^        def get_file(path):$/;"	f	function:FileActionProvider.get_paths
+get_fixed_drives	FileUtilities.py	/^        from Windows import get_fixed_drives$/;"	i
+get_fixed_drives	Windows.py	/^def get_fixed_drives():$/;"	f
+get_hashpath	Options.py	/^    def get_hashpath(self, pathname):$/;"	m	class:Options
+get_id	Cleaner.py	/^    def get_id(self):$/;"	m	class:Cleaner
+get_id	Cleaner.py	/^    def get_id(self):$/;"	m	class:Firefox
+get_id	Cleaner.py	/^    def get_id(self):$/;"	m	class:OpenOfficeOrg
+get_id	Cleaner.py	/^    def get_id(self):$/;"	m	class:System
+get_language	Options.py	/^    def get_language(self, langid):$/;"	m	class:Options
+get_languages	Options.py	/^    def get_languages(self):$/;"	m	class:Options
+get_list	Options.py	/^    def get_list(self, option):$/;"	m	class:Options
+get_model	GUI.py	/^    def get_model(self):$/;"	m	class:TreeInfoModel
+get_name	Cleaner.py	/^    def get_name(self):$/;"	m	class:Cleaner
+get_name	Cleaner.py	/^    def get_name(self):$/;"	m	class:Firefox
+get_name	Cleaner.py	/^    def get_name(self):$/;"	m	class:OpenOfficeOrg
+get_name	Cleaner.py	/^    def get_name(self):$/;"	m	class:System
+get_operation_options	GUI.py	/^    def get_operation_options(self, operation):$/;"	m	class:GUI
+get_option_descriptions	Cleaner.py	/^    def get_option_descriptions(self):$/;"	m	class:Cleaner
+get_options	Cleaner.py	/^    def get_options(self):$/;"	m	class:Cleaner
+get_paths	Action.py	/^    def get_paths(self):$/;"	m	class:FileActionProvider
+get_paths	Options.py	/^    def get_paths(self, section):$/;"	m	class:Options
+get_proc_swaps	Memory.py	/^def get_proc_swaps():$/;"	f
+get_selected_operations	GUI.py	/^    def get_selected_operations(self):$/;"	m	class:GUI
+get_sqlite_int	Special.py	/^def get_sqlite_int(path, sql, parameters=None):$/;"	f
+get_swap_size_linux	Memory.py	/^def get_swap_size_linux(device, proc_swaps=None):$/;"	f
+get_swap_uuid	Memory.py	/^def get_swap_uuid(device):$/;"	f
+get_tree	Options.py	/^    def get_tree(self, parent, child):$/;"	m	class:Options
+get_walk_all	Action.py	/^        def get_walk_all(top):$/;"	f	function:FileActionProvider.get_paths
+get_walk_files	Action.py	/^        def get_walk_files(top):$/;"	f	function:FileActionProvider.get_paths
+get_warning	Cleaner.py	/^    def get_warning(self, option_id):$/;"	m	class:Cleaner
+get_whitelist_paths	Options.py	/^    def get_whitelist_paths(self):$/;"	m	class:Options
+getrealuid	General.py	/^def getrealuid():$/;"	f
+getsize	FileUtilities.py	/^def getsize(path):$/;"	f
+getsizedir	FileUtilities.py	/^def getsizedir(path):$/;"	f
+gettext	Common.py	/^import gettext$/;"	i
+glob	Action.py	/^import glob$/;"	i
+glob	Cleaner.py	/^import glob$/;"	i
+glob	FileUtilities.py	/^import glob$/;"	i
+glob	Unix.py	/^import glob$/;"	i
+glob	Windows.py	/^import glob$/;"	i
+globex	FileUtilities.py	/^def globex(pathname, regex):$/;"	f
+gnome	Unix.py	/^        import gnome.vfs$/;"	i
+gnomevfs	Unix.py	/^        gnomevfs = gnome.vfs$/;"	v
+gnomevfs	Unix.py	/^    import gnomevfs$/;"	i
+gobject	GUI.py	/^import gobject$/;"	i
+gobject	RecognizeCleanerML.py	/^import gobject$/;"	i
+gtk	CLI.py	/^        import gtk$/;"	i
+gtk	Cleaner.py	/^    import gtk$/;"	i
+gtk	Diagnostic.py	/^        import gtk$/;"	i
+gtk	GUI.py	/^import gtk$/;"	i
+gtk	GuiBasic.py	/^import gtk$/;"	i
+gtk	GuiPreferences.py	/^import gtk$/;"	i
+gtk	RecognizeCleanerML.py	/^    import gtk$/;"	i
+gtk	Update.py	/^    import gtk$/;"	i
+guess_overwrite_paths	FileUtilities.py	/^def guess_overwrite_paths():$/;"	f
+guess_overwrite_paths	Options.py	/^            from FileUtilities import guess_overwrite_paths$/;"	i
+gui	GUI.py	/^    gui = GUI()$/;"	v	class:GUI
+handle_cleaner	CleanerML.py	/^    def handle_cleaner(self, cleaner):$/;"	m	class:CleanerML
+handle_cleaner_description	CleanerML.py	/^    def handle_cleaner_description(self, description):$/;"	m	class:CleanerML
+handle_cleaner_label	CleanerML.py	/^    def handle_cleaner_label(self, label):$/;"	m	class:CleanerML
+handle_cleaner_option	CleanerML.py	/^    def handle_cleaner_option(self, option):$/;"	m	class:CleanerML
+handle_cleaner_option_action	CleanerML.py	/^    def handle_cleaner_option_action(self, action_node):$/;"	m	class:CleanerML
+handle_cleaner_option_description	CleanerML.py	/^    def handle_cleaner_option_description(self, description):$/;"	m	class:CleanerML
+handle_cleaner_option_label	CleanerML.py	/^    def handle_cleaner_option_label(self, label):$/;"	m	class:CleanerML
+handle_cleaner_option_warning	CleanerML.py	/^    def handle_cleaner_option_warning(self, warning):$/;"	m	class:CleanerML
+handle_cleaner_running	CleanerML.py	/^    def handle_cleaner_running(self, running_elements):$/;"	m	class:CleanerML
+handle_filekey	Winapp.py	/^    def handle_filekey(self, lid, ini_section, ini_option):$/;"	m	class:Winapp
+handle_regkey	Winapp.py	/^    def handle_regkey(self, lid, ini_section, ini_option):$/;"	m	class:Winapp
+handle_section	Winapp.py	/^    def handle_section(self, section):$/;"	m	class:Winapp
+hashdigest	RecognizeCleanerML.py	/^def hashdigest(string):$/;"	f
+hashlib	RecognizeCleanerML.py	/^import hashlib$/;"	i
+hashlib	Update.py	/^import hashlib$/;"	i
+help_contents_url	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+human_to_bytes	FileUtilities.py	/^def human_to_bytes(human, hformat='si'):$/;"	f
+intfunc	Action.py	/^        def intfunc():$/;"	f	function:TestActionProvider.get_commands
+is_broken_xdg_desktop	Unix.py	/^def is_broken_xdg_desktop(pathname):$/;"	f
+is_open	FileUtilities.py	/^    def is_open(self, filename):$/;"	m	class:OpenFiles
+is_process_running	Windows.py	/^def is_process_running(name):$/;"	f
+is_process_running_win32	Windows.py	/^def is_process_running_win32(name):$/;"	f
+is_process_running_wmic	Windows.py	/^def is_process_running_wmic(name):$/;"	f
+is_running	Cleaner.py	/^    def is_running(self):$/;"	m	class:Cleaner
+is_running	Unix.py	/^def is_running(exename):$/;"	f
+is_usable	Cleaner.py	/^    def is_usable(self):$/;"	m	class:Cleaner
+iterate_languages	Unix.py	/^    def iterate_languages(self):$/;"	m	class:Locales
+json	FileUtilities.py	/^        import json$/;"	i
+json	FileUtilities.py	/^        import simplejson as json$/;"	i
+json	Special.py	/^        import json$/;"	i
+json	Special.py	/^        import simplejson as json$/;"	i
+kernel	Windows.py	/^    kernel = windll.kernel32$/;"	v
+langsecref_map	Winapp.py	/^langsecref_map = {'3021': ('winapp2_applications', _('Applications')),$/;"	v
+launcher_path	Common.py	/^launcher_path = '\/usr\/share\/applications\/bleachbit.desktop'$/;"	v
+launcher_path	Unix.py	/^from Common import _, autostart_path, launcher_path$/;"	i
+license_filename	Common.py	/^        license_filename = lf$/;"	v
+license_filename	Common.py	/^license_filename = None$/;"	v
+license_filename	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+license_filenames	Common.py	/^license_filenames = ('\/usr\/share\/common-licenses\/GPL-3',  # Debian, Ubuntu$/;"	v
+list_cleanerml_files	CleanerML.py	/^def list_cleanerml_files(local_only=False):$/;"	f
+list_cleanerml_files	RecognizeCleanerML.py	/^from CleanerML import list_cleanerml_files$/;"	i
+list_cleaners	CLI.py	/^def list_cleaners():$/;"	f
+list_winapp_files	Winapp.py	/^def list_winapp_files():$/;"	f
+listdir	CleanerML.py	/^from FileUtilities import listdir$/;"	i
+listdir	FileUtilities.py	/^def listdir(directory):$/;"	f
+load_cleaners	CleanerML.py	/^def load_cleaners():$/;"	f
+load_cleaners	Winapp.py	/^def load_cleaners():$/;"	f
+local_cleaners_dir	Common.py	/^local_cleaners_dir = os.path.normpath($/;"	v
+locale	CLI.py	/^        import locale$/;"	i
+locale	Common.py	/^import locale$/;"	i
+locale	Diagnostic.py	/^import locale$/;"	i
+locale	FileUtilities.py	/^import locale$/;"	i
+locale	Update.py	/^        import locale$/;"	i
+locale_dir	Common.py	/^        locale_dir = "\/usr\/pkg\/share\/locale\/"$/;"	v
+locale_dir	Common.py	/^        locale_dir = "\/usr\/share\/locale\/"$/;"	v
+locale_dir	Common.py	/^        locale_dir = os.path.join(bleachbit_exe_path, 'share\\\\locale\\\\')$/;"	v
+locale_dir	Common.py	/^    locale_dir = os.path.abspath(".\/locale\/")$/;"	v
+locale_globex	Unix.py	/^def locale_globex(globpath, regex):$/;"	f
+locale_to_language	Unix.py	/^def locale_to_language(locale):$/;"	f
+locales	Unix.py	/^locales = Locales()$/;"	v
+localization_paths	Unix.py	/^    def localization_paths(self, language_filter):$/;"	m	class:Locales
+make_self_oom_target_linux	Memory.py	/^def make_self_oom_target_linux():$/;"	f
+make_view	GUI.py	/^    def make_view(self, model, parent, context_menu_event):$/;"	m	class:TreeDisplayModel
+makedirs	General.py	/^def makedirs(path):$/;"	f
+math	Worker.py	/^import math$/;"	i
+message_dialog	GuiBasic.py	/^def message_dialog(parent, msg, mtype=gtk.MESSAGE_ERROR, buttons=gtk.BUTTONS_OK):$/;"	f
+minidom	CleanerML.py	/^import xml.dom.minidom$/;"	i
+minidom	Special.py	/^    import xml.dom.minidom$/;"	i
+minidom	Update.py	/^import xml.dom.minidom$/;"	i
+native_name	Unix.py	/^    def native_name(self, language_code):$/;"	m	class:Locales
+on_row_changed	GUI.py	/^    def on_row_changed(self, __treemodel, path, __iter):$/;"	m	class:TreeInfoModel
+on_selection_changed	GUI.py	/^    def on_selection_changed(self, selection):$/;"	m	class:GUI
+online_update_notification_enabled	Common.py	/^online_update_notification_enabled = True$/;"	v
+online_update_notification_enabled	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+online_update_notification_enabled	GuiPreferences.py	/^from Common import _, _p, online_update_notification_enabled$/;"	i
+ooosharedirs	Unix.py	/^    ooosharedirs = ['\/usr\/lib\/openoffice\/share\/',  # Ubuntu 8$/;"	v	class:Locales
+open_url	GuiBasic.py	/^def open_url(url, parent_window=None, prompt=True):$/;"	f
+open_url	Update.py	/^    from GuiBasic import open_url$/;"	i
+openfiles	FileUtilities.py	/^openfiles = OpenFiles()$/;"	v
+operations	CLI.py	/^        operations = args_to_operations(args, options.preset)$/;"	v
+operations	CLI.py	/^        operations = {'_gui': ['files']}$/;"	v
+options	Cleaner.py	/^from Options import options$/;"	i
+options	FileUtilities.py	/^        from Options import options$/;"	i
+options	FileUtilities.py	/^    from Options import options$/;"	i
+options	GUI.py	/^from Options import options$/;"	i
+options	GuiPreferences.py	/^from Options import options$/;"	i
+options	Options.py	/^options = Options()$/;"	v
+options	RecognizeCleanerML.py	/^from Options import options$/;"	i
+options	Special.py	/^from Options import options$/;"	i
+options_dir	Common.py	/^        options_dir = bleachbit_exe_path$/;"	v
+options_dir	Common.py	/^        options_dir = os.path.expandvars("${APPDATA}\\\\BleachBit")$/;"	v
+options_dir	Common.py	/^    options_dir = os.path.expanduser("~\/.config\/bleachbit")$/;"	v
+options_dir	Common.py	/^options_dir = None$/;"	v
+options_dir	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+options_file	Common.py	/^options_file = os.path.join(options_dir, "bleachbit.ini")$/;"	v
+options_file	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+optparse	CLI.py	/^import optparse$/;"	i
+os	Action.py	/^import os$/;"	i
+os	CLI.py	/^import os$/;"	i
+os	Cleaner.py	/^import os.path$/;"	i
+os	CleanerML.py	/^import os$/;"	i
+os	Command.py	/^import os$/;"	i
+os	Common.py	/^import os$/;"	i
+os	DeepScan.py	/^import os$/;"	i
+os	Diagnostic.py	/^import os$/;"	i
+os	FileUtilities.py	/^import os$/;"	i
+os	GUI.py	/^import os$/;"	i
+os	General.py	/^import os$/;"	i
+os	GuiBasic.py	/^import os$/;"	i
+os	GuiPreferences.py	/^import os$/;"	i
+os	Memory.py	/^import os$/;"	i
+os	Options.py	/^import os$/;"	i
+os	RecognizeCleanerML.py	/^import os$/;"	i
+os	Special.py	/^import os.path$/;"	i
+os	Unix.py	/^import os$/;"	i
+os	Update.py	/^import os$/;"	i
+os	Update.py	/^import os.path$/;"	i
+os	Winapp.py	/^import os$/;"	i
+os	Windows.py	/^import os$/;"	i
+os	Worker.py	/^import os$/;"	i
+os_match	CleanerML.py	/^    def os_match(self, os_str):$/;"	m	class:CleanerML
+parseString	Winapp.py	/^from xml.dom.minidom import parseString$/;"	i
+parse_swapoff	Memory.py	/^def parse_swapoff(swapoff):$/;"	f
+parse_updates	Update.py	/^    def parse_updates(element):$/;"	f	function:check_updates
+path	Cleaner.py	/^import os.path$/;"	i
+path	Special.py	/^import os.path$/;"	i
+path	Update.py	/^import os.path$/;"	i
+path_on_network	Windows.py	/^def path_on_network(path):$/;"	f
+path_to_option	Options.py	/^def path_to_option(pathname):$/;"	f
+pathfunc	Action.py	/^        def pathfunc(path):$/;"	f	function:TestActionProvider.get_commands
+pathname	CLI.py	/^        pathname = args[0]$/;"	v
+personal_cleaners_dir	Common.py	/^personal_cleaners_dir = os.path.join(options_dir, "cleaners")$/;"	v
+personal_cleaners_dir	Update.py	/^    from Common import personal_cleaners_dir$/;"	i
+pgettext	Common.py	/^def pgettext(msgctxt, msgid):$/;"	f
+physical_free	Memory.py	/^def physical_free():$/;"	f
+physical_free_linux	Memory.py	/^def physical_free_linux():$/;"	f
+physical_free_windows	Memory.py	/^def physical_free_windows():$/;"	f
+platform	Diagnostic.py	/^import platform$/;"	i
+platform	Update.py	/^import platform$/;"	i
+platform	Windows.py	/^import platform$/;"	i
+portable_mode	Common.py	/^        portable_mode = True$/;"	v
+portable_mode	Common.py	/^portable_mode = False$/;"	v
+portable_mode	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+pot_fragment	CleanerML.py	/^def pot_fragment(msgid, pathname, translators=None):$/;"	f
+preexpand	Winapp.py	/^def preexpand(s):$/;"	f
+preserve_toggled_cb	GuiPreferences.py	/^        def preserve_toggled_cb(cell, path, liststore):$/;"	f	function:PreferencesDialog.__languages_page
+preview_or_clean	CLI.py	/^def preview_or_clean(operations, really_clean):$/;"	f
+preview_or_run_operations	GUI.py	/^    def preview_or_run_operations(self, really_delete, operations=None):$/;"	m	class:GUI
+print_exception	Worker.py	/^    def print_exception(self, operation):$/;"	m	class:Worker
+process_cmd_line	CLI.py	/^def process_cmd_line():$/;"	f
+psapi	Windows.py	/^    psapi = windll.psapi$/;"	v
+pwd	General.py	/^        import pwd$/;"	i
+pygtk	GUI.py	/^import pygtk$/;"	i
+pygtk	RecognizeCleanerML.py	/^    import pygtk$/;"	i
+pynotify	GUI.py	/^            import pynotify$/;"	i
+pywintypes	Windows.py	/^    import pywintypes$/;"	i
+random	FileUtilities.py	/^import random$/;"	i
+random	RecognizeCleanerML.py	/^import random$/;"	i
+re	Action.py	/^import re$/;"	i
+re	Cleaner.py	/^import re$/;"	i
+re	DeepScan.py	/^import re$/;"	i
+re	FileUtilities.py	/^import re$/;"	i
+re	GuiBasic.py	/^        import re$/;"	i
+re	Memory.py	/^import re$/;"	i
+re	Options.py	/^import re$/;"	i
+re	Unix.py	/^import re$/;"	i
+re	Winapp.py	/^import re$/;"	i
+re	Windows.py	/^import re$/;"	i
+refresh_rows	GUI.py	/^    def refresh_rows(self):$/;"	m	class:TreeInfoModel
+register_cleaners	CLI.py	/^from Cleaner import backends, create_simple_cleaner, register_cleaners$/;"	i
+register_cleaners	Cleaner.py	/^def register_cleaners():$/;"	f
+register_cleaners	GUI.py	/^from Cleaner import backends, register_cleaners$/;"	i
+release_notes_url	GUI.py	/^    online_update_notification_enabled, release_notes_url, portable_mode$/;"	i
+remove_custom_path_cb	GuiPreferences.py	/^        def remove_custom_path_cb(button):$/;"	f	function:PreferencesDialog.__locations_page
+remove_drive_cb	GuiPreferences.py	/^        def remove_drive_cb(button):$/;"	f	function:PreferencesDialog.__drives_page
+remove_whitelist_path_cb	GuiPreferences.py	/^        def remove_whitelist_path_cb(button):$/;"	f	function:PreferencesDialog.__locations_page
+report_free	Memory.py	/^def report_free():$/;"	f
+restore	Options.py	/^    def restore(self):$/;"	m	class:Options
+rotated_logs	Unix.py	/^def rotated_logs():$/;"	f
+run	GuiPreferences.py	/^    def run(self):$/;"	m	class:PreferencesDialog
+run	Worker.py	/^    def run(self):$/;"	m	class:Worker
+run_deep_scan	Worker.py	/^    def run_deep_scan(self):$/;"	m	class:Worker
+run_delayed_op	Worker.py	/^    def run_delayed_op(self, operation, option_id):$/;"	m	class:Worker
+run_external	General.py	/^def run_external(args, stdout=False, env=None):$/;"	f
+run_operations	GUI.py	/^    def run_operations(self, __widget):$/;"	m	class:GUI
+run_operations	Worker.py	/^    def run_operations(self, my_operations):$/;"	m	class:Worker
+same_partition	FileUtilities.py	/^def same_partition(dir1, dir2):$/;"	f
+scan	DeepScan.py	/^    def scan(self):$/;"	m	class:DeepScan
+scan	FileUtilities.py	/^    def scan(self):$/;"	m	class:OpenFiles
+section2option	Winapp.py	/^def section2option(s):$/;"	f
+section_to_cleanerid	Winapp.py	/^    def section_to_cleanerid(self, langsecref):$/;"	m	class:Winapp
+set	Options.py	/^    def set(self, key, value, section='bleachbit', commit=True):$/;"	m	class:Options
+set_cleaner	GUI.py	/^    def set_cleaner(self, path, model, parent_window, value=None):$/;"	m	class:TreeDisplayModel
+set_custom_paths	Options.py	/^    def set_custom_paths(self, values):$/;"	m	class:Options
+set_hashpath	Options.py	/^    def set_hashpath(self, pathname, hashvalue):$/;"	m	class:Options
+set_language	Options.py	/^    def set_language(self, langid, value):$/;"	m	class:Options
+set_list	Options.py	/^    def set_list(self, key, values):$/;"	m	class:Options
+set_sensitive	GUI.py	/^    def set_sensitive(self, true):$/;"	m	class:GUI
+set_tree	Options.py	/^    def set_tree(self, parent, child, value):$/;"	m	class:Options
+set_warning	Cleaner.py	/^    def set_warning(self, option_id, description):$/;"	m	class:Cleaner
+set_whitelist_paths	Options.py	/^    def set_whitelist_paths(self, values):$/;"	m	class:Options
+shell	Common.py	/^    from win32com.shell import shell, shellcon$/;"	i
+shell	Diagnostic.py	/^    from win32com.shell import shell$/;"	i
+shell	Windows.py	/^    from win32com.shell import shell, shellcon$/;"	i
+shellcon	Common.py	/^    from win32com.shell import shell, shellcon$/;"	i
+shellcon	Windows.py	/^    from win32com.shell import shell, shellcon$/;"	i
+shlex	Unix.py	/^import shlex$/;"	i
+shred_paths	CLI.py	/^        shred_paths = args if options.shred else None$/;"	v
+shred_paths	GUI.py	/^    def shred_paths(self, paths):$/;"	m	class:GUI
+shutil	Unix.py	/^    import shutil$/;"	i
+sizeof	Memory.py	/^    from ctypes.wintypes import Structure, sizeof, windll, byref$/;"	i
+sizeof	Windows.py	/^    from ctypes import windll, c_ulong, c_buffer, byref, sizeof$/;"	i
+socket	Update.py	/^import socket$/;"	i
+socket_timeout	Common.py	/^socket_timeout = 10$/;"	v
+sort_func	GUI.py	/^    def sort_func(self, model, iter1, iter2):$/;"	m	class:TreeInfoModel
+split_registry_key	Windows.py	/^def split_registry_key(full_key):$/;"	f
+sqlite3	FileUtilities.py	/^    import sqlite3$/;"	i
+sqlite3	GUI.py	/^                import sqlite3$/;"	i
+sqlite3	Special.py	/^    import sqlite3$/;"	i
+start_with_computer	Unix.py	/^def start_with_computer(enabled):$/;"	f
+start_with_computer	Windows.py	/^def start_with_computer(enabled):$/;"	f
+start_with_computer_check	Unix.py	/^def start_with_computer_check():$/;"	f
+start_with_computer_check	Windows.py	/^def start_with_computer_check():$/;"	f
+stat	CleanerML.py	/^        import stat$/;"	i
+stat	FileUtilities.py	/^import stat$/;"	i
+string	FileUtilities.py	/^import string$/;"	i
+subprocess	General.py	/^    import subprocess$/;"	i
+subprocess	Memory.py	/^import subprocess$/;"	i
+subprocess	Unix.py	/^import subprocess$/;"	i
+sudo_mode	General.py	/^def sudo_mode():$/;"	f
+sync	FileUtilities.py	/^def sync():$/;"	f
+sys	CLI.py	/^import sys$/;"	i
+sys	Cleaner.py	/^import sys$/;"	i
+sys	CleanerML.py	/^import sys$/;"	i
+sys	Common.py	/^import sys$/;"	i
+sys	Diagnostic.py	/^import sys$/;"	i
+sys	FileUtilities.py	/^import sys$/;"	i
+sys	GUI.py	/^import sys$/;"	i
+sys	General.py	/^import sys$/;"	i
+sys	GuiPreferences.py	/^import sys$/;"	i
+sys	Memory.py	/^import sys$/;"	i
+sys	RecognizeCleanerML.py	/^import sys$/;"	i
+sys	Update.py	/^import sys$/;"	i
+sys	Windows.py	/^import sys$/;"	i
+sys	Worker.py	/^import sys$/;"	i
+system_cleaners_dir	Common.py	/^    system_cleaners_dir = '\/usr\/pkg\/share\/bleachbit\/cleaners'$/;"	v
+system_cleaners_dir	Common.py	/^    system_cleaners_dir = '\/usr\/share\/bleachbit\/cleaners'$/;"	v
+system_cleaners_dir	Common.py	/^    system_cleaners_dir = None$/;"	v
+system_cleaners_dir	Common.py	/^    system_cleaners_dir = os.path.join(bleachbit_exe_path, 'share\\\\cleaners\\\\')$/;"	v
+t	Common.py	/^    t = gettext.translation('bleachbit', locale_dir)$/;"	v
+tempfile	Action.py	/^        import tempfile$/;"	i
+tempfile	FileUtilities.py	/^import tempfile$/;"	i
+temporaryfile	FileUtilities.py	/^    def temporaryfile():$/;"	f	function:wipe_path
+threaded	GUI.py	/^def threaded(func):$/;"	f
+threading	GUI.py	/^import threading$/;"	i
+time	DeepScan.py	/^        import time$/;"	i
+time	FileUtilities.py	/^import time$/;"	i
+time	GUI.py	/^import time$/;"	i
+time	Worker.py	/^        import time$/;"	i
+toggle	Options.py	/^    def toggle(self, key):$/;"	m	class:Options
+toggled	RecognizeCleanerML.py	/^    def toggled(cell, path, model):$/;"	f	function:cleaner_change_dialog
+traceback	Cleaner.py	/^import traceback$/;"	i
+traceback	CleanerML.py	/^import traceback$/;"	i
+traceback	GUI.py	/^import traceback$/;"	i
+traceback	General.py	/^import traceback$/;"	i
+traceback	GuiPreferences.py	/^import traceback$/;"	i
+traceback	Memory.py	/^import traceback$/;"	i
+traceback	Options.py	/^import traceback$/;"	i
+traceback	Update.py	/^import traceback$/;"	i
+traceback	Winapp.py	/^import traceback$/;"	i
+traceback	Windows.py	/^import traceback$/;"	i
+traceback	Worker.py	/^import traceback$/;"	i
+types	Action.py	/^import types$/;"	i
+types	Command.py	/^import types$/;"	i
+types	GUI.py	/^import types$/;"	i
+uname	Winapp.py	/^from platform import uname$/;"	i
+ungettext	Common.py	/^    def ungettext(singular, plural, n):$/;"	f
+ungettext	Common.py	/^    ungettext = t.ungettext$/;"	v
+ungettext	Worker.py	/^from Common import _, ungettext$/;"	i
+update_check_url	Common.py	/^update_check_url = "%s\/communicate.php" % base_url$/;"	v
+update_dialog	Update.py	/^def update_dialog(parent, updates):$/;"	f
+update_progress_bar	CLI.py	/^    def update_progress_bar(self, status):$/;"	m	class:CliCallback
+update_progress_bar	GUI.py	/^    def update_progress_bar(self, status):$/;"	m	class:GUI
+update_total_size	CLI.py	/^    def update_total_size(self, size):$/;"	m	class:CliCallback
+update_total_size	GUI.py	/^    def update_total_size(self, bytes_removed):$/;"	m	class:GUI
+update_winapp2	Update.py	/^def update_winapp2(url, hash_expected, append_text, cb_success):$/;"	f
+urllib2	Update.py	/^import urllib2$/;"	i
+user_agent	Update.py	/^def user_agent():$/;"	f
+user_locale	Common.py	/^    user_locale = 'C'$/;"	v
+user_locale	Common.py	/^    user_locale = None$/;"	v
+user_locale	Common.py	/^    user_locale = locale.getdefaultlocale()[0]$/;"	v
+vacuum_sqlite3	FileUtilities.py	/^def vacuum_sqlite3(path):$/;"	f
+vfs	Unix.py	/^        import gnome.vfs$/;"	i
+warnings	GUI.py	/^import warnings$/;"	i
+webbrowser	GuiBasic.py	/^        import webbrowser$/;"	i
+whitelist	Command.py	/^def whitelist(path):$/;"	f
+whitelisted	Cleaner.py	/^    def whitelisted(self, pathname):$/;"	m	class:System
+whitelisted	FileUtilities.py	/^def whitelisted(path):$/;"	f
+win32api	Windows.py	/^    import win32api$/;"	i
+win32com	Windows.py	/^    import win32com.client$/;"	i
+win32con	General.py	/^        import win32con$/;"	i
+win32con	Windows.py	/^    import win32con$/;"	i
+win32file	FileUtilities.py	/^    import win32file$/;"	i
+win32file	Windows.py	/^    import win32file$/;"	i
+win32gui	Windows.py	/^    import win32gui$/;"	i
+win32process	General.py	/^        import win32process$/;"	i
+win32process	Windows.py	/^    import win32process$/;"	i
+win32serviceutil	Windows.py	/^    import win32serviceutil$/;"	i
+windll	Memory.py	/^    from ctypes.wintypes import Structure, sizeof, windll, byref$/;"	i
+windll	Windows.py	/^    from ctypes import windll, c_ulong, c_buffer, byref, sizeof$/;"	i
+wine_to_linux_path	Unix.py	/^def wine_to_linux_path(wineprefix, windows_pathname):$/;"	f
+wipe_contents	FileUtilities.py	/^def wipe_contents(path, truncate=True):$/;"	f
+wipe_inodes	CLI.py	/^        from FileUtilities import wipe_inodes$/;"	i
+wipe_inodes	FileUtilities.py	/^def wipe_inodes(pathname, idle=False):$/;"	f
+wipe_memory	Memory.py	/^def wipe_memory():$/;"	f
+wipe_name	FileUtilities.py	/^def wipe_name(pathname1):$/;"	f
+wipe_path	FileUtilities.py	/^def wipe_path(pathname, idle=False):$/;"	f
+wipe_path_func	Cleaner.py	/^                def wipe_path_func():$/;"	f	function:System.get_commands.clear_clipboard
+wipe_path_func	Cleaner.py	/^    def wipe_path_func():$/;"	f	function:create_wipe_cleaner
+wipe_swap_linux	Memory.py	/^def wipe_swap_linux(devices, proc_swaps):$/;"	f
+worker_done	CLI.py	/^    def worker_done(self, worker, really_delete):$/;"	m	class:CliCallback
+worker_done	GUI.py	/^    def worker_done(self, worker, really_delete):$/;"	m	class:GUI
+wrapper	GUI.py	/^    def wrapper(*args):$/;"	f	function:threaded
+wu_service	Windows.py	/^    def wu_service():$/;"	f	function:delete_updates
+xml	CleanerML.py	/^import xml.dom.minidom$/;"	i
+xml	Special.py	/^    import xml.dom.minidom$/;"	i
+xml	Update.py	/^import xml.dom.minidom$/;"	i
+xml_escape	Winapp.py	/^def xml_escape(s):$/;"	f
+yum_clean	Unix.py	/^def yum_clean():$/;"	f
