@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-5.1.dtd">
 <!-- eric5 tasks file for project bleachbit -->
-<!-- Saved: 2014-04-22, 16:12:49 -->
+<!-- Saved: 2014-04-24, 18:47:28 -->
 <Tasks version="5.1">
   <ProjectScanFilter></ProjectScanFilter>
-  <Task priority="1" completed="False" type="3">
-    <Summary>NOTE: --overwrite is intended only for use with --clean'</Summary>
-    <Description></Description>
-    <Created>2014-04-22, 16:09:12</Created>
-    <Resource>
-      <Filename>bleachbit/CLI.py</Filename>
-      <Linenumber>198</Linenumber>
-    </Resource>
-  </Task>
   <Task priority="1" completed="False" type="2">
     <Summary>WARNING: unknown option %s in section %s' % (option, section)</Summary>
     <Description></Description>
@@ -29,6 +20,15 @@
     <Resource>
       <Filename>bleachbit/Winapp.py</Filename>
       <Linenumber>264</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3">
+    <Summary>NOTE: --overwrite is intended only for use with --clean'</Summary>
+    <Description></Description>
+    <Created>2014-04-24, 18:47:25</Created>
+    <Resource>
+      <Filename>bleachbit/CLI.py</Filename>
+      <Linenumber>203</Linenumber>
     </Resource>
   </Task>
 </Tasks>

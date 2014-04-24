@@ -125,6 +125,12 @@ class Cleaner:
     def get_name(self):
         """Return the human name of this cleaner"""
         return self.name
+        
+
+    def get_option_all(self):
+        if self.options:
+            for key in sorted(self.options.keys()):
+                yield (self.get_id(),  key,  self.get_name(),  self.options[key][0], self.options[key][1])
 
     def get_option_descriptions(self):
         """Yield the names and descriptions of each option in a 2-tuple"""
@@ -807,7 +813,6 @@ def create_simple_cleaner(paths):
     cleaner.add_action('files', provider)
     return cleaner
 
-#擦除空闲空间
 def create_wipe_cleaner(path):
     """Wipe free disk space of arbitrary paths (used in GUI)"""
     cleaner = Cleaner()

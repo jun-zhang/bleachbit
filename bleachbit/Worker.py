@@ -33,7 +33,6 @@ import FileUtilities
 from Cleaner import backends
 from Common import _, ungettext
 
-#预览或者清除
 class Worker:
 
     """Perform the preview or delete operations"""

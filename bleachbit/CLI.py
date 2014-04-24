@@ -72,9 +72,14 @@ def cleaners_list():
     """Yield each cleaner-option pair"""
     register_cleaners()
     for key in sorted(backends):
-        c_id = backends[key].get_id()
-        for (o_id, o_name) in backends[key].get_options():
-            yield "%s.%s" % (c_id, o_id)
+        #c_id = backends[key].get_id()
+        #c_name = backends[key].get_name()
+        if  backends[key].auto_hide():
+            # hide irrelevant cleaner (e.g., the application is not
+            # detected)
+            continue
+        for (c_id, o_id, c_name, label, description) in backends[key].get_option_all():
+            yield "%s.%s....%s:%s----%s" % (c_id, o_id, c_name, label, description)
 
 
 def list_cleaners():
